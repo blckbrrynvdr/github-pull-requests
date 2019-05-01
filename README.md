@@ -37,7 +37,7 @@ git clone https://github.com/blckbrrynvdr/WebMiddleGulp.git burger
 ### 2.1 Создаем связь с личным удаленным репозиторием
 Открываем терминал и заходим в папку с проектом (папка в которой есть папка .git)
 
-![Alt text](https://portomebel.ru/upload/loft/4.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/319c6a4e1f2fa6a8320c5a07ffa7a65b938a527c3d72cf75e6c6a7776b8a2c78/5cc9a53c/JG5ha30Bu-LmCX3O6tbpgM7Bv15XXQ9tZnyC8B_CDZkntgQqkuY1AyLYxZ7tTesrRPC2hrRLCYgED7_SrdTc3Q%3D%3D?uid=0&filename=3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 Далее выполняем связь своего удаленного репозитория с этой папкой, но командой которая вам предлагается на gitHub этого не получится сделать, т.к. при клонировании репозитория вы автоматические локальный привязали к репозиторию наставника. Эту связь разрушаем командой
 ```{r, engine='bash', count_lines}
