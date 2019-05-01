@@ -11,14 +11,15 @@
 
 Копируем адрес репозитория тип соединения не важен т.к. к моему репозиторию у вас доступа не будет. Но для своего репозитория о том как его настроить можете посмотреть тут https://youtu.be/MnU1U7GCWLk
 
-![Alt text](https://portomebel.ru/upload/loft/1.png)
+![Alt text](https://yadi.sk/d/Zh018HaCtL7Tbg/1.png)
 
 Открываем терминал и заходим в папку с проектом
 
 Пишем (если хотим склонировать проект со сборкой):
 ```{r, engine='bash', count_lines}
-git clone git@github.com:MaxOrel/BuilderBurger.git burger
+git clone https://github.com/blckbrrynvdr/WebMiddleGulp.git burger
 ```
+Псоледнее слово (burger) можете заменить на choco или любое другое, это будет название папки, в которую склонируется проект.
 
 После чего в папке, где вы сделали эту команду должны появиться папка со сборкой проекта
 
@@ -29,7 +30,7 @@ git clone git@github.com:MaxOrel/BuilderBurger.git burger
 
 Создаем новый репозиторий на github
 
-![Alt text](https://portomebel.ru/upload/loft/3.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/b5968911a11160f8f8d539ee013b1d2a636097cace18b2ec14890f5b27d133ec/5cc99d73/JM_omLnXkHCqUIFLSABuZ0v-0QJwiITuGs-w8pb9b_1sKrJ8cDcoG5BDB9iQTZUpb4ahm_U0eEaM-t3fyACThQ%3D%3D?uid=0&filename=2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1920x937)
 
 ## 2. Работа с репозиторием на компьютере
 
