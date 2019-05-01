@@ -23,7 +23,7 @@ git clone https://github.com/blckbrrynvdr/WebMiddleGulp.git burger
 
 После чего в папке, где вы сделали эту команду должны появиться папка со сборкой проекта
 
-![Alt text](https://portomebel.ru/upload/loft/2.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/7756d2168b77fe56313d10d7b13dff2d2e15480d2f0879bf0dbb6f1515e80a09/5cc9aed8/Tz4DGIfOqdhg2K4Uq5SUYmcFOXWTRmJq6rcuz4NSwHK_OhoG_dSElF33v7FGVGL1KGPALc8VKeaN1W2Cy-Dlyg%3D%3D?uid=0&filename=22.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 
 ### 1.1 Создаем свой удаленный репозиторий
