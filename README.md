@@ -41,15 +41,15 @@ git clone https://github.com/blckbrrynvdr/WebMiddleGulp.git burger
 
 Далее выполняем связь своего удаленного репозитория с этой папкой, но командой которая вам предлагается на gitHub этого не получится сделать, т.к. при клонировании репозитория вы автоматические локальный привязали к репозиторию наставника. Эту связь разрушаем командой
 ```{r, engine='bash', count_lines}
-git remote set-url origin git@github.com:unosmart/burger.git
+git remote set-url origin https://github.com/blckbrrynvdr/WebMiddleGulp.git
 ```
-Где git@github.com:unosmart/burger.git - ваш репозиторий
+Где https://github.com/blckbrrynvdr/WebMiddleGulp.git - ваш репозиторий (подставьте сюда адрес вашего удаленного репозитория)
 
-![Alt text](https://portomebel.ru/upload/loft/5.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/67bdc78f9248056ef9d67a9c8101a1bed8628e2f62dd1b93c0e28a59d2f9133b/5cc9af80/LVUaP6cXYtY55MhnSInr5wvpM6tl-bCuBtD1k9m4JwYsiZjeKCDyb-Kp-XRtTSuPPt4j8450LD4TjSsMccykXw%3D%3D?uid=0&filename=4.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 Если не клонировали мой репозиторий с gulp сборкой, то выполняем команду которая подсказывается при создании репозитория
 ```{r, engine='bash', count_lines}
-git remote add origin git@github.com:unosmart/burger.git
+git remote add origin https://github.com/blckbrrynvdr/WebMiddleGulp.git
 ```
 
 После того как создали связь с личным репозиторием делаем команду
@@ -65,7 +65,7 @@ git push -u origin master
 ```{r, engine='bash', count_lines}
 git checkout -b week_1
 ```
-![Alt text](https://portomebel.ru/upload/loft/6.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/0e9b7589a1beadc7f7e1b65580370bb5b6a5489e5a0e7795643cffbc11385496/5cc9b040/409WVYDtMhG-0UN5At9zA6gmVm1Du8vPqQU4pxqbCFVaan5PIzWZWMV3ioPABqV6fKLoLJgV7g1P-QJuZXAX7A%3D%3D?uid=0&filename=5.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 Работаем в этой ветке (вставляем файлы из сохраненной папки в сборку то, что вы уже сверстали или сделали или пишем с нуля если ничего не делали)
 
@@ -83,7 +83,7 @@ git add .
 git commit -m "Текст коммита"
 ```
 
-![Alt text](https://portomebel.ru/upload/loft/8.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/8a2d93db11c29eec2f6747eeb1f8fc8e97d511537e899ba9590aea1c64772890/5cc9b0ea/mMpD5WCD_ps_ajxHT80hYrtCOY9YRwiJBhfYCQysAS63aF6Y_llf6INRaXNqg2uqxk_TJKD2vwy8XlKxf65MvA%3D%3D?uid=0&filename=6.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=958x927)
 
 Коммит создан
 
@@ -93,7 +93,7 @@ git commit -m "Текст коммита"
 git push -u origin week_1
 ```
 
-![Alt text](https://portomebel.ru/upload/loft/9.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/1c405d0c01fc709ea1222d0bde198644d43896f83891e842a25e76fb63a93526/5cc9b143/PHG-5FVS-TCm9xtwI1gwVBTF8lqOaiAbeqxS_PBHWUd8z7LABe5OtzY24C6_k87eXz6_N-ZQyrMz1CIfDAKZhg%3D%3D?uid=0&filename=7.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 ## 3. Проверка работы и сдача работы наставнику
 
@@ -108,11 +108,11 @@ git push -u origin week_1
 1. Переходим на вкладку settings
 2. Выбираем ветку gh-pages. Нажимаем save
 
-![Alt text](https://portomebel.ru/upload/loft/12.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/fa111df4e8d91f33209c612b21fbcb52a30ff1e12783204f3f221639f9eb70ff/5cc9b206/bnQVsdvfaHWtt-QNje1SjoHVbkARdWD_T9DefsGgB2W35DWUvJJvSFDo32VuQPjfOUEk2kfz5HtVyh_v56ML6w%3D%3D?uid=0&filename=8.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 Создаем pull request из week_1 в master
-![Alt text](https://portomebel.ru/upload/loft/13.png)
-![Alt text](https://portomebel.ru/upload/loft/14.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/e1336cf4df1a1ce1690ea11bb4d78df4ef3de22ceae6e6636a0268a531596f49/5cc9b2d6/sYlhvLX46GVnogDbJcn88tyZL-SMeD4874k4In6t20iHfjd0GBbSN47dqjhnSBaC_nakwQ3kay7WzEDk7Cfv6w%3D%3D?uid=0&filename=9.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
+![Alt text](https://downloader.disk.yandex.ru/preview/6f0d5c7fe0bf5b8b20f7b2a27f18e5f1487773a601d48327e5fdd4cc76580475/5cc9b377/iigDum-mF3BOMpe9zm8p5L26fwkEY6YrPpmGgAfim277v9uatHUd8pKHOVecTaPCcUJzXA0ssWRnxd5Toh6Qpw%3D%3D?uid=0&filename=10.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 ### Публикуем изменения на github pages ###
 
@@ -129,11 +129,11 @@ git push origin week_1:gh-pages
 ```
 *week_1 заменяем на текущую недельную ветку*. Таким образом все актуальные изменения мы заливаем на gh-pages и они будут доступны по ссылке которую вы пришлете наставнику.
 
-![Alt text](https://portomebel.ru/upload/loft/15.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/3e8fb1896a3bf8e81d429f3f6c2cbc3e81d09d04be44e0a6bc83a5b20222fe35/5cc9b3bf/YsCWAgNr1W_327IaE0lq4Na2XN4nQNm8EiUvK4ev8W-msZrKsbFCPI8PMqRpMzXQLyl0YIdaFP694LS3nnazlw%3D%3D?uid=0&filename=11.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=1133x927)
 
 На гите появится вот такая запись 
 
-![Alt text](https://portomebel.ru/upload/loft/16.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/842ae2e18c3109b21960bd6bad973d391ef6984826cfb2af25e46fe59af3c9f2/5cc9b454/Ti3u4UAJZ1nj8oFb4HTRU-EU2MUhcR5cxxzzUHX3-XVQfVxLBtJrGawxdjZom0J6tm65VunCzZ_oj1_Uu6Y4dA%3D%3D?uid=0&filename=12.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 ### Добавляем настаника в collaborators ###
 1. Открываем вкладку Settings
@@ -141,7 +141,7 @@ git push origin week_1:gh-pages
 3. Пишем ник настаника 
 4. Жмем на кнопку
 
-![Alt text](https://portomebel.ru/upload/loft/17.png)
+![Alt text](https://downloader.disk.yandex.ru/preview/3f4b8aa3da1117968133d9ffb39600992ada6b88ddc7bf1fc44191af51469cc8/5cc9b4db/DjycVjG8csSJEO7vBZCy_Xb3rBb4NES0gV41vPrAgx-As5K7LuogmeSGFerXr1psT4jHCzsELrilfi3HCA4uCQ%3D%3D?uid=0&filename=13.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 ### Пишем наставнику, что все сделали, ждем ответа. ###
 
