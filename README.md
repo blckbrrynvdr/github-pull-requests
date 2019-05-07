@@ -13,6 +13,8 @@
 
 Копируем адрес репозитория тип соединения не важен т.к. к моему репозиторию у вас доступа не будет. Но для своего репозитория о том как его настроить можете посмотреть тут https://youtu.be/MnU1U7GCWLk
 
+Ссылка на репозиторий с gulp сборкой https://github.com/blckbrrynvdr/WebMiddleGulp
+
 ![Alt text](https://downloader.disk.yandex.ru/preview/e04b54c46a10c68d0b9d0ea5b70c45b238751d1f18ea20b776f9b35ee6468d10/5cc99daf/1RO3FSj1zOa5MD1aEd1ndxqw6Vc-cZ-qgGC3H97yu_hg6j8pHjflIwDkB94jBgP2UznN3TIB4_ySdeCWsDYPkw%3D%3D?uid=0&filename=1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&tknv=v2&size=2048x2048)
 
 Открываем терминал и заходим в папку с проектом
